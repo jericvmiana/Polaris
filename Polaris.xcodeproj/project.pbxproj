@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1917D2622BD4A2D7003EA741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D2612BD4A2D7003EA741 /* ContentView.swift */; };
+		1917D2642BD4AC31003EA741 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D2632BD4AC31003EA741 /* ItemModel.swift */; };
+		1917D2672BD4B4D2003EA741 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D2662BD4B4D2003EA741 /* Constants.swift */; };
+		1917D2692BD4B7BC003EA741 /* MoreCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D2682BD4B7BC003EA741 /* MoreCategoryCell.swift */; };
+		1917D26B2BD4B7EA003EA741 /* MoreSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D26A2BD4B7EA003EA741 /* MoreSettingsCell.swift */; };
+		1917D26D2BD4D1F0003EA741 /* CommunityCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D26C2BD4D1F0003EA741 /* CommunityCategoryCell.swift */; };
+		1917D26F2BD4D53C003EA741 /* RideInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D26E2BD4D53C003EA741 /* RideInfoView.swift */; };
+		1917D2712BD4DFBD003EA741 /* MoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D2702BD4DFBD003EA741 /* MoreViewModel.swift */; };
+		1917D2732BD4E166003EA741 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D2722BD4E166003EA741 /* AddVehicleView.swift */; };
+		1978D2362BD34A5A00F89B4C /* PolarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D2352BD34A5A00F89B4C /* PolarisApp.swift */; };
+		1978D23A2BD34A5C00F89B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1978D2392BD34A5C00F89B4C /* Assets.xcassets */; };
+		1978D23D2BD34A5C00F89B4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1978D23C2BD34A5C00F89B4C /* Preview Assets.xcassets */; };
+		1978D2472BD34BEE00F89B4C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D2462BD34BEE00F89B4C /* MapView.swift */; };
+		1978D2492BD34BF600F89B4C /* RidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D2482BD34BF600F89B4C /* RidesView.swift */; };
+		1978D24B2BD34C0000F89B4C /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D24A2BD34C0000F89B4C /* CommunityView.swift */; };
+		1978D24D2BD34C0600F89B4C /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D24C2BD34C0600F89B4C /* MoreView.swift */; };
+		1978D2542BD34CF600F89B4C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D2532BD34CF600F89B4C /* HomeView.swift */; };
+		1978D2572BD3883900F89B4C /* ScaledFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D2562BD3883900F89B4C /* ScaledFontModifier.swift */; };
+		19838BAA2BD548EE00B270F0 /* CommunityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838BA92BD548EE00B270F0 /* CommunityViewModel.swift */; };
+		19838BAC2BD5491A00B270F0 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838BAB2BD5491A00B270F0 /* PostModel.swift */; };
+		19838BAE2BD54B1C00B270F0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838BAD2BD54B1C00B270F0 /* DataService.swift */; };
+		19838BB32BD5ED5B00B270F0 /* CommunityPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838BB22BD5ED5B00B270F0 /* CommunityPostCell.swift */; };
+		1992AC872BD63B8F00577230 /* CommunityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1992AC862BD63B8F00577230 /* CommunityHeaderView.swift */; };
+		1992AC8C2BD685C700577230 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1992AC8B2BD685C700577230 /* CustomButton.swift */; };
+		1992AC8E2BD68E6600577230 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1992AC8D2BD68E6600577230 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1917D2612BD4A2D7003EA741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1917D2632BD4AC31003EA741 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		1917D2662BD4B4D2003EA741 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1917D2682BD4B7BC003EA741 /* MoreCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCategoryCell.swift; sourceTree = "<group>"; };
+		1917D26A2BD4B7EA003EA741 /* MoreSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSettingsCell.swift; sourceTree = "<group>"; };
+		1917D26C2BD4D1F0003EA741 /* CommunityCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCategoryCell.swift; sourceTree = "<group>"; };
+		1917D26E2BD4D53C003EA741 /* RideInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideInfoView.swift; sourceTree = "<group>"; };
+		1917D2702BD4DFBD003EA741 /* MoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewModel.swift; sourceTree = "<group>"; };
+		1917D2722BD4E166003EA741 /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		1978D2322BD34A5A00F89B4C /* Polaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1978D2352BD34A5A00F89B4C /* PolarisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarisApp.swift; sourceTree = "<group>"; };
+		1978D2392BD34A5C00F89B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1978D23C2BD34A5C00F89B4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1978D2462BD34BEE00F89B4C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1978D2482BD34BF600F89B4C /* RidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesView.swift; sourceTree = "<group>"; };
+		1978D24A2BD34C0000F89B4C /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		1978D24C2BD34C0600F89B4C /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		1978D2532BD34CF600F89B4C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1978D2562BD3883900F89B4C /* ScaledFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFontModifier.swift; sourceTree = "<group>"; };
+		19838BA92BD548EE00B270F0 /* CommunityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewModel.swift; sourceTree = "<group>"; };
+		19838BAB2BD5491A00B270F0 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		19838BAD2BD54B1C00B270F0 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		19838BB22BD5ED5B00B270F0 /* CommunityPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostCell.swift; sourceTree = "<group>"; };
+		1992AC862BD63B8F00577230 /* CommunityHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityHeaderView.swift; sourceTree = "<group>"; };
+		1992AC8B2BD685C700577230 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1992AC8D2BD68E6600577230 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1978D22F2BD34A5A00F89B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1917D25E2BD4A289003EA741 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1917D2632BD4AC31003EA741 /* ItemModel.swift */,
+				19838BAB2BD5491A00B270F0 /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1917D25F2BD4A28D003EA741 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				19838BA52BD5408A00B270F0 /* Community */,
+				19838BA42BD5408300B270F0 /* More */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1917D2602BD4A295003EA741 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				19838BAD2BD54B1C00B270F0 /* DataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		1917D2652BD4B4BF003EA741 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1917D2662BD4B4D2003EA741 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1917D2742BD4E445003EA741 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1978D2292BD34A5A00F89B4C = {
+			isa = PBXGroup;
+			children = (
+				1978D2342BD34A5A00F89B4C /* Polaris */,
+				1978D2332BD34A5A00F89B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1978D2332BD34A5A00F89B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1978D2322BD34A5A00F89B4C /* Polaris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1978D2342BD34A5A00F89B4C /* Polaris */ = {
+			isa = PBXGroup;
+			children = (
+				1978D2352BD34A5A00F89B4C /* PolarisApp.swift */,
+				1992AC8D2BD68E6600577230 /* Launch Screen.storyboard */,
+				1978D2392BD34A5C00F89B4C /* Assets.xcassets */,
+				1917D25E2BD4A289003EA741 /* Models */,
+				1978D2432BD34B3200F89B4C /* Views */,
+				1917D25F2BD4A28D003EA741 /* ViewModels */,
+				1917D2602BD4A295003EA741 /* DataService */,
+				1978D2552BD387DD00F89B4C /* Modifiers */,
+				1917D2652BD4B4BF003EA741 /* Utils */,
+				1978D23B2BD34A5C00F89B4C /* Preview Content */,
+				1917D2742BD4E445003EA741 /* Resources */,
+			);
+			path = Polaris;
+			sourceTree = "<group>";
+		};
+		1978D23B2BD34A5C00F89B4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1978D23C2BD34A5C00F89B4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1978D2432BD34B3200F89B4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1917D2612BD4A2D7003EA741 /* ContentView.swift */,
+				1978D24E2BD34C0A00F89B4C /* Home */,
+				1978D24F2BD34C1000F89B4C /* Map */,
+				1978D2502BD34C1600F89B4C /* Rides */,
+				1978D2512BD34C1B00F89B4C /* Community */,
+				1978D2522BD34C2300F89B4C /* More */,
+				1992AC8A2BD685BC00577230 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1978D24E2BD34C0A00F89B4C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1978D2532BD34CF600F89B4C /* HomeView.swift */,
+				1917D26E2BD4D53C003EA741 /* RideInfoView.swift */,
+				1917D2722BD4E166003EA741 /* AddVehicleView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1978D24F2BD34C1000F89B4C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				1978D2462BD34BEE00F89B4C /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1978D2502BD34C1600F89B4C /* Rides */ = {
+			isa = PBXGroup;
+			children = (
+				1978D2482BD34BF600F89B4C /* RidesView.swift */,
+			);
+			path = Rides;
+			sourceTree = "<group>";
+		};
+		1978D2512BD34C1B00F89B4C /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				1978D24A2BD34C0000F89B4C /* CommunityView.swift */,
+				1917D26C2BD4D1F0003EA741 /* CommunityCategoryCell.swift */,
+				19838BB22BD5ED5B00B270F0 /* CommunityPostCell.swift */,
+				1992AC862BD63B8F00577230 /* CommunityHeaderView.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		1978D2522BD34C2300F89B4C /* More */ = {
+			isa = PBXGroup;
+			children = (
+				1978D24C2BD34C0600F89B4C /* MoreView.swift */,
+				1917D2682BD4B7BC003EA741 /* MoreCategoryCell.swift */,
+				1917D26A2BD4B7EA003EA741 /* MoreSettingsCell.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		1978D2552BD387DD00F89B4C /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1978D2562BD3883900F89B4C /* ScaledFontModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		19838BA42BD5408300B270F0 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				1917D2702BD4DFBD003EA741 /* MoreViewModel.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		19838BA52BD5408A00B270F0 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				19838BA92BD548EE00B270F0 /* CommunityViewModel.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		1992AC8A2BD685BC00577230 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1992AC8B2BD685C700577230 /* CustomButton.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1978D2312BD34A5A00F89B4C /* Polaris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1978D2402BD34A5C00F89B4C /* Build configuration list for PBXNativeTarget "Polaris" */;
+			buildPhases = (
+				1978D22E2BD34A5A00F89B4C /* Sources */,
+				1978D22F2BD34A5A00F89B4C /* Frameworks */,
+				1978D2302BD34A5A00F89B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polaris;
+			productName = Polaris;
+			productReference = 1978D2322BD34A5A00F89B4C /* Polaris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1978D22A2BD34A5A00F89B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1978D2312BD34A5A00F89B4C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1978D22D2BD34A5A00F89B4C /* Build configuration list for PBXProject "Polaris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1978D2292BD34A5A00F89B4C;
+			productRefGroup = 1978D2332BD34A5A00F89B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1978D2312BD34A5A00F89B4C /* Polaris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1978D2302BD34A5A00F89B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992AC8E2BD68E6600577230 /* Launch Screen.storyboard in Resources */,
+				1978D23D2BD34A5C00F89B4C /* Preview Assets.xcassets in Resources */,
+				1978D23A2BD34A5C00F89B4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1978D22E2BD34A5A00F89B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1978D24D2BD34C0600F89B4C /* MoreView.swift in Sources */,
+				19838BAC2BD5491A00B270F0 /* PostModel.swift in Sources */,
+				1917D26B2BD4B7EA003EA741 /* MoreSettingsCell.swift in Sources */,
+				1978D2542BD34CF600F89B4C /* HomeView.swift in Sources */,
+				19838BB32BD5ED5B00B270F0 /* CommunityPostCell.swift in Sources */,
+				1917D2732BD4E166003EA741 /* AddVehicleView.swift in Sources */,
+				1917D2712BD4DFBD003EA741 /* MoreViewModel.swift in Sources */,
+				19838BAE2BD54B1C00B270F0 /* DataService.swift in Sources */,
+				1917D2622BD4A2D7003EA741 /* ContentView.swift in Sources */,
+				1917D2642BD4AC31003EA741 /* ItemModel.swift in Sources */,
+				1917D2692BD4B7BC003EA741 /* MoreCategoryCell.swift in Sources */,
+				1917D26F2BD4D53C003EA741 /* RideInfoView.swift in Sources */,
+				1992AC872BD63B8F00577230 /* CommunityHeaderView.swift in Sources */,
+				1978D2472BD34BEE00F89B4C /* MapView.swift in Sources */,
+				1917D2672BD4B4D2003EA741 /* Constants.swift in Sources */,
+				19838BAA2BD548EE00B270F0 /* CommunityViewModel.swift in Sources */,
+				1992AC8C2BD685C700577230 /* CustomButton.swift in Sources */,
+				1978D24B2BD34C0000F89B4C /* CommunityView.swift in Sources */,
+				1978D2572BD3883900F89B4C /* ScaledFontModifier.swift in Sources */,
+				1978D2492BD34BF600F89B4C /* RidesView.swift in Sources */,
+				1978D2362BD34A5A00F89B4C /* PolarisApp.swift in Sources */,
+				1917D26D2BD4D1F0003EA741 /* CommunityCategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1978D23E2BD34A5C00F89B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1978D23F2BD34A5C00F89B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1978D2412BD34A5C00F89B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Polaris/Preview Content\"";
+				DEVELOPMENT_TEAM = 4AWUKLVLWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polaris.Polaris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1978D2422BD34A5C00F89B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Polaris/Preview Content\"";
+				DEVELOPMENT_TEAM = 4AWUKLVLWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polaris.Polaris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1978D22D2BD34A5A00F89B4C /* Build configuration list for PBXProject "Polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1978D23E2BD34A5C00F89B4C /* Debug */,
+				1978D23F2BD34A5C00F89B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1978D2402BD34A5C00F89B4C /* Build configuration list for PBXNativeTarget "Polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1978D2412BD34A5C00F89B4C /* Debug */,
+				1978D2422BD34A5C00F89B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1978D22A2BD34A5A00F89B4C /* Project object */;
+}
